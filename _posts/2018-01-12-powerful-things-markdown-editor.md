@@ -2,7 +2,7 @@
 layout: post
 title:  "Powerful things you can do with the Markdown editor"
 categories: [ Jekyll, tutorial ]
-image: assets/images/4.jpg
+
 featured: false
 ---
 There are lots of powerful things you can do with the Markdown editor
