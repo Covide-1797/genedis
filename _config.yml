@@ -1,0 +1,35 @@
+# Site
+name: GeNeDis
+description: Website for the GeNeDis 2020 event
+meta_description: "GeNeDis 2020"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 12
+baseurl: /
+email: 'wowthemesnet@gmail.com'
+sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+
+# Authors
+authors:
+  Administrator:
+    name: Administrator
+    display_name: Administrator
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: wowthemesnet@gmail.com
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
