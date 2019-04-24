@@ -336,6 +336,7 @@ span.post-name a,span.post-read-more a:hover {
     z-index: 1;
     position: relative;
 	height: 500px;
+	background-position:center center;
 }
 .intro .btn {
     background: #fff100;
