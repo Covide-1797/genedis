@@ -83,7 +83,7 @@ title: Home
                       <a class="text-primary" href="https://www.genedis.eu/pages/satellite-events.html" target="_blank"><h5 class="card-title"><u> 3rd Satellite Event</u></h5></a>
                     <p class="card-text">
                         <p>
-                            <a class="text-primary" href="http://www.biology.uoc.gr/el/announcements/7544" target="_blank">Foundation for Research and Technology (FORTH), in Heraklion, Crete, Greece</a>
+                            <a class="text-primary" href="http://www.biology.uoc.gr/el/announcements/7544" target="_blank">Foundation for Research and Technology (FORTH), in Heraklion, Crete, Greece</a>
                         </p>
                     </p>
                 </div>
@@ -185,6 +185,7 @@ title: Home
                     </div>
                 </div>
             </div>
+        </div>
         <br>
         <br>     
 
@@ -197,15 +198,10 @@ title: Home
         {% endif %}    
 
         <section class="recent-posts row">
-
-           
-
             <div class="col-sm-12">
-
                 <div class="section-title">
                     <h2><span>Announcements</span></h2>    
                 </div>
-
                 <div class="masonrygrid row listrecent">
 
                     {% for post in paginator.posts %}
@@ -219,18 +215,11 @@ title: Home
                     {% endfor %}
 
                 </div> 
-
                 <!-- Pagination -->
                 <div class="bottompagination">
-
                     <span class="navigation" role="navigation">
-
                         {% include pagination.html %}
-
                     </span>
-
                 </div>
-
             </div>
-
         </section>
