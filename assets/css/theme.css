@@ -858,3 +858,32 @@ iframe {
     .form-group .col-md-6:first-child {   margin-bottom: 1rem;}
     
 }
+
+/*custom styles */
+.card-satellite {
+    border-radius: 15px;
+}
+
+.card-invited {
+    border-radius: 15px;
+}
+
+.btn {
+    border-radius: 30px;
+    background-color: white;
+}
+.shadow-sm {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.shadow-none {
+    box-shadow: none !important;
+}
