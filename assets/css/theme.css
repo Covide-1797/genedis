@@ -889,4 +889,5 @@ iframe {
 
 .card-img-top {
     max-height: 320px;
+    min-height: 340px;
 }
