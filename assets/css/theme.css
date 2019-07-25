@@ -886,3 +886,7 @@ iframe {
 .shadow-none {
     box-shadow: none !important;
 }
+
+.card-img-top {
+    max-height: 250px;
+}
